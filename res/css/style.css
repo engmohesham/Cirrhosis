@@ -439,6 +439,9 @@ header .container {
 
   /* ------------- */
   /* LearnMore */
+  .learnMore .container {
+    padding: 10px 0 50px;
+  }
   .cards {
     display: flex;
     /* flex-direction: column; */
@@ -455,7 +458,7 @@ header .container {
   /* Content */
   .contentWeb {
     margin-top: 500px;
-    padding: 0;
+    padding: 40px 0;
   }
   .contentCard {
     padding: 0;
