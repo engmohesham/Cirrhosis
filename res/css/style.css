@@ -501,6 +501,14 @@ header .container {
   }
 }
 
+@media (max-width: 380px) {
+  .contentWeb {
+    margin-top: 700px;
+  }
+  .contentCard {
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  }
+}
 
 
 
